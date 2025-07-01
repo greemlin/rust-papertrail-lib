@@ -1,11 +1,11 @@
 [package]
 name = "papertrail_logger"
-version = "0.1.0"
+version = "0.3.0"
 edition = "2021"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["NK <nk@nikap.com>"]
 description = "Async Rust logger for Papertrail"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/yourusername/rust-papertrail-lib"
+repository = "https://github.com/greemlin/rust-papertrail-lib"
 keywords = ["logging", "papertrail", "syslog"]
 categories = ["asynchronous", "network-programming"]
 

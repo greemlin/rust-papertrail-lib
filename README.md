@@ -21,7 +21,7 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-rust-papertrail-lib = "0.1.0"  # Check crates.io for latest version
+papertrail-logger = "0.3.0"  # Check crates.io for latest version
 dotenv = "0.15.0"  # For .env configuration
 ```
 
