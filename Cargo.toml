@@ -1,0 +1,16 @@
+[package]
+name = "papertrail_logger"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "Async Rust logger for Papertrail"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yourusername/rust-papertrail-lib"
+keywords = ["logging", "papertrail", "syslog"]
+categories = ["asynchronous", "network-programming"]
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-native-tls = "0.3"
+chrono = "0.4"
+log = "0.4"
