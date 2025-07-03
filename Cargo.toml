@@ -1,6 +1,6 @@
 [package]
 name = "papertrail_logger"
-version = "0.4.0"
+version = "1.0.0"
 edition = "2021"
 authors = ["NK <nk@nikap.com>"]
 description = "Async Rust logger for Papertrail"
@@ -14,3 +14,4 @@ tokio = { version = "1", features = ["full"] }
 tokio-native-tls = "0.3"
 chrono = "0.4"
 log = "0.4"
+dotenvy = "0.15.7"
